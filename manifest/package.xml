@@ -3,6 +3,7 @@
 	<types>
 		<members>GetPicklistValues</members>
 		<members>TestGetPicklistValues</members>
+		<members>FlowMapClass</members>
 		<name>ApexClass</name>
 	</types>
 	<version>60.0</version>
