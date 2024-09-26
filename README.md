@@ -17,3 +17,10 @@ By moving this task over to Apex, we do the following:
   - Maps, as defined in Apex, are at this point not allowed to be used in Flows.  By using a custom variable similar to Maps, we can theoretically store a key-value pair for the picklist API name and picklist label values if we wanted
   - The `FlowMapClass` variable included in this repo contains an `altValue` parameter where a single record can be `key-value-altValue`
 3. After returning a collection of `FlowMapClass` values, we can then use this within a picklist choice set, and not be barred by Flow limitations
+
+<img width="708" alt="image" src="https://github.com/user-attachments/assets/63c11dde-ecb0-43f6-91ff-46067e0fa3b7">
+<img width="923" alt="image" src="https://github.com/user-attachments/assets/e09082bb-d535-4492-baa9-12448fd28803">
+<img width="469" alt="image" src="https://github.com/user-attachments/assets/11b95a9a-13a2-47f9-99a6-65ec2acf5cc2">
+
+
+
