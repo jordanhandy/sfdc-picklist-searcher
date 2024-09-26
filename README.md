@@ -2,10 +2,13 @@
 
 Given an object and field (API names), use the Apex and Test classes within a flow to be able to parse the active valid values for the picklist field.
 
-This allows us, within flows, to be able to add these valid values to picklist choice sets within Salesforce Flows.  There is currently an issue in Salesforce Flows where certain objects cannot be queried for their picklists to be used in choice sets.  Once of these objects is the Knowledge__kav object (see screenshot).
+This allows us, within flows, to be able to add these valid values to picklist choice sets within Salesforce Flows.  There is currently an issue in Salesforce Flows where certain objects cannot be queried for their picklists to be used in choice sets.  Once of these objects is the `Knowledge__kav` object (see screenshot).
 
 ## Error
-As mentioned above, when trying to query a picklist or multi-picklist field for a choice set within a flow, you may be met with this error.
+As mentioned above, when trying to query a picklist or multi-picklist field for a choice set within a flow, you may be met with this error.  Using Apex allows us to avoid errors such as these
+
+<img width="423" alt="image" src="https://github.com/user-attachments/assets/1cf07121-47a2-4a56-9db2-cdae517c223e">
+
 
 ## Usage
 By moving this task over to Apex, we do the following:
